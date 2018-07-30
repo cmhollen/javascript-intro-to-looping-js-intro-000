@@ -8,6 +8,7 @@ function forLoop(arr){
       loop = `I am ${i} strange loops.`
     }
       arr += loop;
+      return arr;
   }
-  return arr;
+
 }
