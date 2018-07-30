@@ -5,7 +5,7 @@ function forLoop(arr){
     arr += `I am ${i} strange loops.`
 
 
-      
+
   }
 return arr;
 }
