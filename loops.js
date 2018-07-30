@@ -13,11 +13,13 @@ function whileLoop(n){
   return 'done';
 }
 
+function maybeTrue() {
+  return Math.random() >= 0.5;
+}
 function doWhileLoop(array){
-  function maybeTrue() {
-    return Math.random() >= 0.5
+  
 
   do {
-    array.pop}
+    array.pop()
 
 } while (maybeTrue());
