@@ -6,8 +6,9 @@ function forLoop(arr){
       loop = 'I am 1 strange loop.';
     } else {
       loop = `I am ${i} strange loops.`
-    }
       arr += loop;
+    }
+      
       return arr;
   }
 
